@@ -8,5 +8,5 @@ for REPO in $@; do
  	  -H "Authorization: Bearer $MY_GIT_PAT" \
  	  -H "X-GitHub-Api-Version: 2022-11-28" \
  	  https://api.github.com/repos/$REPO/dispatches \
- 	  -d '{"event_type":"test-event"}'
+ 	  -d '{"event_type":"repo-dispatch"}'
 done
