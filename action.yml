@@ -10,7 +10,7 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - run: bash main/deploy.sh ${{ inputs.repos }}
+    - run: bash deploy-shell/deploy.sh ${{ inputs.repos }}
       shell: bash
       env:
         MY_GIT_PAT: ${{ inputs.token }}
