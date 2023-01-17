@@ -1,7 +1,7 @@
 #!/bin/bash
 
 for REPO in $@; do
-	echo "dispatching $REPO" >> test.txt
+	echo "dispatching $REPO"
 # 	curl \
 # 	  -X POST \
 # 	  -H "Accept: application/vnd.github+json" \
