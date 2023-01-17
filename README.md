@@ -18,5 +18,5 @@ Add this to the dispatching repo:
           
 Add this to the dispatched repo(s):
 
-  repository_dispatch:
-    types: [repo-dispatch]
+        repository_dispatch:
+          types: [repo-dispatch]
